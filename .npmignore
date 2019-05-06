@@ -12,6 +12,7 @@ yarn-error.getLoggerInstance*
 *.sln
 coverage
 test
+src
 .travis.yml
 .tslint.json
 tsconfig.json
