@@ -129,7 +129,6 @@ export class ChaincodeMockStub implements MockStub, ChaincodeStub {
     mockTransactionStart(txid: string, transientMap?: StateMap): void {
         this.txID = txid;
         this.setChaincodeProposal(<ChaincodeProposal.SignedProposal>{});
-        this.setTxTimestamp(new Timestamp());
         this.transientMap = transientMap;
     }
 
